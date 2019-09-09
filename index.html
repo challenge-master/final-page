@@ -1,35 +1,42 @@
 <!doctype html>
 <html>
 <head>
+<script> $(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+});
+	$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+	</script>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Star sset managment for challenge</title>
+<link href="AboutPageAssets/styles/aboutPageStyle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	body{background-color: #FFFFFF}
+</style>
+
+<!-- Don't modify the following script tag - not part of challenge-->
+<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
 </head>
-<h1>Final Page, if you enter the password coreectly below, you have succeeded.</h1>
-<script>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your raw and unencrypted Flag here','Flag here.');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "00-04-gertie-2") {
-alert('Correct, you have sucsefully completed the challenge. Please quote the code: 7824 to Angus to prove that you have done it.');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</script>
-<center>
-<form>
-<input type="button" value="Enter flag here" onClick="passWord()">
-</form>
-</center>
 <body>
+<!-- Header content -->
+</head>
+    <!-- Second Title & company details  -->
+    <article class="section2Content">
+		<h1>Star Asset Manegment</h1>
+      <p class="sectionContent"> Our clients are at the center of everything we do. They are global, with complex challenges that require deep investment expertise and dedicated client service to help them achieve their unique investment goals. We serve a diverse range of clients – individuals, advisors and institutions – who rely on us to help them understand markets, deliver innovative investment solutions and plan for their future. </p>
+    </article> 
+<h1 style="opacity: 0;">53300b1d5538fd5ab099af0b2ed53903
+	</h1>
+<!-- Credit Card number (Encrypted) $2a$04$UeWqR0EzelZXDs0RGr4NpuhWTBT0JVIt6ZC0AUP/OqprUMkjwSz4G -->
+<!-- Qn gwc amm bpqa bmfb qv mvotqap, bpm ntio qa kwzzmkb. -->
+  </section>
+</section>
+<footer>
+	<p>If you need any hints, please message me.</p>
+</footer>
 </body>
 </html>
